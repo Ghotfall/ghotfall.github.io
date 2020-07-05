@@ -1,0 +1,11 @@
+#site-header {
+	background-color: #3c3b3b;
+}
+
+#site-nav a {
+	color: white;
+}
+
+#site-nav a:hover {
+	color: #2ebaae;
+}
