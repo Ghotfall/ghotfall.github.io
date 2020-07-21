@@ -43,14 +43,14 @@ enableEmoji				= true
 
   [params.intro]
     header                = "Ghotfall's Corner"
-    paragraph             = "Small personal blog for sharing ideas, achivements and other interesting things..."
+    paragraph             = "Here you can find a lot of interesting stories about life, work, hobbies and even more!"
     rssIntro              = true
     socialIntro           = true
     hideWhenSingleColumn  = true
     alwaysOnHomepage      = true
 
     [params.intro.pic]
-      src                 = "img/main/logo.jpg"
+      src                 = "/img/main/logo.jpg"
       shape               = "message"
       width               = "200px"
       alt                 = "Ghotfall's corner"
