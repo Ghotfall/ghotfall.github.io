@@ -1,6 +1,6 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-#baseurl                 = "https://example.com/"
+baseurl                 = "https://ghotfall.github.io/"
 DefaultContentLanguage  = "en"
 title                   = "Ghotfall's Corner"
 theme                   = "hugo-future-imperfect-slim"
@@ -50,7 +50,7 @@ enableEmoji				= true
     alwaysOnHomepage      = true
 
     [params.intro.pic]
-      src                 = "/img/main/logo.jpg"
+      src                 = "./img/main/logo.jpg"
       shape               = "message"
       width               = "200px"
       alt                 = "Ghotfall's corner"
