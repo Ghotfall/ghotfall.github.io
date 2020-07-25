@@ -1,11 +1,11 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-baseurl                 = "https://ghotfall.github.io/"
+baseurl                 = "https://ghotfall.com/"
 DefaultContentLanguage  = "en"
 title                   = "Ghotfall's Corner"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
-disqusShortname         = ""
+disqusShortname         = "ghotfall-com"
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
