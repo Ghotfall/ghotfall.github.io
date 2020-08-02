@@ -5,7 +5,7 @@ date = "2020-08-02"
 description = "Coffee... That cool smell and sour bitter taste..."
 tags = ["drawing", "coffe", "traditional drawing", "pencil"]
 categories = ["Drawing"]
-images = ["/img/content/2020/08/02/11_preview.jpg"]
+images = ["/img/content/2020/08/02/preview.jpeg"]
 +++
 
 **Hello, everybody**!
@@ -13,6 +13,8 @@ images = ["/img/content/2020/08/02/11_preview.jpg"]
 I am starting to post my art here. If you like it, you can also check my other works on [Instagram](https://instagram.com/ghotfall).
 
 This one was a sudden, inspired by cup of coffee and morning chill.
+
+{{< instagram CDYg3GYls_7 hidecaption>}}
 
 Creation:
 
