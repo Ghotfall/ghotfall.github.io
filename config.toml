@@ -11,6 +11,9 @@ pluralizeListTitles     = false
 disableLanguages        = [""]
 enableEmoji				= true
 
+[permalinks]
+  blog = "/blog/:year/:month/:day/:title/"
+
 [outputs]
   home                  = ["html", "json"]
 

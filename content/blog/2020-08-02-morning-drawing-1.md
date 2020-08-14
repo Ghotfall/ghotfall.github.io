@@ -1,6 +1,6 @@
 +++
 author = "Ghotfall"
-title = "Morning Drawing #1"
+title = "Morning Drawing 1"
 date = "2020-08-02"
 description = "Coffee... That cool smell and sour bitter taste..."
 tags = ["drawing", "coffe", "traditional drawing", "pencil"]

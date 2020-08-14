@@ -6,6 +6,7 @@ description = "You would learn how to authenticate to the Kubernetes API from an
 tags = ["go", "golang", "k8s", "kubernetes", "client-go"]
 categories = ["Programming", "DevOps", "Golang"]
 images = [""]
+aliases = ["/blog/2020/08/01/k8s-api-auth-client-go/"]
 +++
 
 Client-go, go library for talking to a kubernetes cluster, provides few ways for authenticating to the Kubernetes API. Possible steps are quite different for apps which are running inside and outside the cluster.
