@@ -12,7 +12,7 @@ sections:
 - type: directory
   path: content/contact
   label: Contact
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: content/blog
@@ -22,7 +22,7 @@ sections:
 - type: directory
   path: content/about
   label: About
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
