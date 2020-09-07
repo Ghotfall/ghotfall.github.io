@@ -1,14 +1,14 @@
 +++
-author = "Ghotfall"
-title = "Authenticating to the Kubernetes API with client-go"
-date = "2020-08-01"
-description = "You would learn how to authenticate to the Kubernetes API from an Golang application running inside or outside the Kubernetes cluster"
-tags = ["go", "golang", "k8s", "kubernetes", "client-go"]
-categories = ["Programming", "DevOps", "Golang"]
-images = [""]
 aliases = ["/blog/2020/08/01/k8s-api-auth-client-go/"]
-+++
+author = "Ghotfall"
+categories = ["Programming", "DevOps", "Golang"]
+date = 2020-08-01T00:00:00Z
+description = "You would learn how to authenticate to the Kubernetes API from an Golang application running inside or outside the Kubernetes cluster"
+images = ["https://miro.medium.com/max/1190/1*NFv453pxVi1goLh-yVa4pQ.png"]
+tags = ["go", "golang", "k8s", "kubernetes", "client-go"]
+title = "Authenticating to the Kubernetes API with client-go"
 
++++
 Client-go, go library for talking to a kubernetes cluster, provides few ways for authenticating to the Kubernetes API. Possible steps are quite different for apps which are running inside and outside the cluster.
 
 Your actions would be quite simple if you planning to pack your golang app in container and use it within pod. Let's look at the example:
