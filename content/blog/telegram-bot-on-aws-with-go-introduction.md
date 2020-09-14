@@ -32,3 +32,37 @@ go get -u github.com/aws/aws-lambda-go
 And the last preparation will be registration of our bot inside Telegram. Make sure you get an API token from [@Botfather](https://t.me/Botfather) before moving forward.
 
 **Note: you can read** [**official docs**](https://core.telegram.org/bots) **in order to get some more info about  Telegram Bot API.**
+
+Ok, now we can write some code. Firstly, some boilerplate code is needed for working with AWS Lambda:
+
+```go
+package main
+
+import (
+	"context"
+	"github.com/aws/aws-lambda-go/lambda"
+)
+
+func main() {
+	lambda.Start(HandleRequest)
+}
+
+func HandleRequest(ctx context.Context, req events.APIGatewayV2HTTPRequest) (events.APIGatewayV2HTTPResponse, error) {
+	// Your code...
+    
+	return events.APIGatewayV2HTTPResponse{StatusCode: 200}, nil
+}
+```
+
+Our main function only starts HandleRequest function. HandleRequest will include the code which will be executed. Not every handler will be valid for execution inside AWS Lambda. There is a list of acceptable signatures:
+
+* ```func ()```
+* ```func () error```
+* ```func (TIn), error```
+* ```func () (TOut, error)```
+* ```func (context.Context) error```
+* ```func (context.Context, TIn) error```
+* ```func (context.Context) (TOut, error)```
+* ```func (context.Context, TIn) (TOut, error)```
+
+asfd
